@@ -2,13 +2,13 @@
 # VEmulator CLI
 VEmulator allows the emulation of devices that use the VE.Direct text and/or hex protocol. 
 
-This is the CLI of VEmulator, which runs non-interactively, such that it can be used in e.g. automated system tests. The CLI needs the VEmulator core submodule to operate corerctly, this module can be found [here](https://github.com/jeltevanbommel/VEmulator). The module contains a more detailed explanation about the working of the VEmulator. and is automatically included as a git submodule. 
+This is the CLI of VEmulator, which runs non-interactively, such that it can be used in e.g. automated system tests. The CLI needs the VEmulator core submodule to operate corerctly, this module can be found [here](https://github.com/jeltevanbommel/VEmulate-Core-public). The module contains a more detailed explanation about the working of the VEmulator. and is automatically included as a git submodule. 
 
-Also see the [Vemulator-GUI](https://github.com/jeltevanbommel/VEmulator-GUI) package for a Graphical User Interface.
+Also see the [Vemulator-GUI](https://github.com/jeltevanbommel/VEmulate-GUI-public) package for a Graphical User Interface.
 
 ## Installing
 
-`git clone https://github.com/jeltevanbommel/VEmulator-CLI.git --recursive `
+`git clone https://github.com/jeltevanbommel/VEmulate-CLI-public.git --recursive `
 
 If a virtual environment is desired, the following command can be ran:
 `python3.9 -m virtualenv venv`
